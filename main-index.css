@@ -42,6 +42,24 @@ strong {
   transition: all 400ms ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.button{display: flex;
+  justify-content: center;
+  margin: 20px 0px ;
+  
+  
+} 
+#hello, .btn{
+  font-family: "roboto";
+  color: aliceblue;
+  background-color: #009DA5;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 8px 8px rgba(0, 157, 165, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
 .text-country {
   position: absolute;
   top: 50%; left: 50%;
