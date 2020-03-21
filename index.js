@@ -3,10 +3,8 @@ button.onclick = function() {
     alert("Hello");
 }
 
-function colorBody() {
-    document.body.style.backgroundColor = "#009DA5";
+function Dark() {
+    var element = document.body;
+    element.classList.toggle("darkMode");
 }  
 
-function column() {
-    document.getElementById("display").style.flexDirection = "inline";
-  }

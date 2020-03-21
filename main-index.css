@@ -60,6 +60,32 @@ strong {
   width: 100px;
   height: 50px;
 }
+
+.darkMode, .btn{
+  background-color: #111;
+  color: #eee;
+}
+
+.darkMode .btn{
+  background-color:  #eee;
+  color:#111;
+}
+
+.darkMode h1{
+  color: #eee;
+}
+
+.darkMode #hello{
+  background-color:  #eee;
+  color:#111;
+}
+
+.darkMode Footer{
+  background-color: #111;
+  color: #eee;
+  border-top: 1px solid #eee;
+}
+
 .text-country {
   position: absolute;
   top: 50%; left: 50%;
